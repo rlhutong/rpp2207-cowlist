@@ -16,7 +16,7 @@ db.connectAsync()
       `CREATE TABLE IF NOT EXISTS list (
         id INT AUTO_INCREMENT NOT NULL,
         name VARCHAR(20) NOT NULL,
-        description VARCHAR(100) NOT NULL,
+        description VARCHAR(500) NOT NULL,
         PRIMARY KEY(id)
       )`
     )

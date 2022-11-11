@@ -28,7 +28,7 @@ const App =()=>{
 
 
       <List list={list} setList={setList} />
-      <Add />
+      <Add setList={setList} />
     </div>
   );
 
